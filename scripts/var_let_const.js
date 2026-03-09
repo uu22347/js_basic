@@ -72,5 +72,7 @@ let num = 1;
 //템플릿 문자열 활용 출력
 console.log(`${product_item} ${num}개 가격은 ${price}원입니다.`);
 //주문수량 3개, 총 결제금액은 161730원입니다.
-num = 3;
+num = 3; // 1+1 = 2 -> Number '1'+'1' = 11 -> String
 console.log(`주문수량 ${num}개, 총 결제금액은 ${price*num}원입니다.`);
+// num변수의 데이터종류는 ?
+console.log(`num변수의 데이터종류는 ${typeof(num)}`)
