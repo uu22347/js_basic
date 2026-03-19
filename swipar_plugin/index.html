@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swipar_plugin - start</title>
+    <!--swiper 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--swiper 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 사용자 지정 css, js 아래 순서대로 연결 (reset 먼저) -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>header</header>
+        <main>
+            <div class="swiper hero_bnr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1"><p>슬라이드1</p></div>
+                    <div class="swiper-slide slide2"><p>슬라이드2</p></div>
+                    <div class="swiper-slide slide3"><p>슬라이드3</p></div>
+                </div>
+            </div>
+            <hr>
+            <div class="swiper market_bnr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide page1">
+                        <div class="contents"><!-- 컨텐츠 -->
+                            <h1>봄맞이 뷰컬레<br><span>선착순 1만원 쿠폰</span></h1>
+                            <p><a href="#">인기 상품 최대 82%</a></p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide page2">
+                        <div class="contents"><!-- 컨텐츠 -->
+                            <h1>달콤함의 취향<br><span>버터하우스</span></h1>
+                            <p><a href="#">화제의 브랜드부터 인기 상품까지</a></p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide page3">
+                        <div class="contents"><!-- 컨텐츠 -->
+                            <h1>구독료 할인권으로<br><span>컬리멤버스 시작하기</span></h1>
+                            <p><a href="#">100원으로 매일 무료배송!<br>지금 바로 할인권받기></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>
