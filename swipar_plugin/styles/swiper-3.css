@@ -1,0 +1,97 @@
+#wrap {min-width:1200px;}
+#wrap header {
+    position: sticky; top: -50px; z-index:999; left:0;
+    box-shadow:0 10px 20px rgba(0,0,0,0.05);
+}
+#wrap header,
+#wrap footer {
+    width:100%; background:linear-gradient(90deg,#eee,#fff,#eee); color:#555;
+    line-height:100px; text-align:center; font-size:2rem; font-size:0.95rem;
+}
+#wrap main {}
+#wrap main #hero_wrap {}
+#wrap main #hero_wrap .ssf_hero {height:90vh;}
+#wrap main #hero_wrap .ssf_hero .prev,
+#wrap main #hero_wrap .ssf_hero .next {
+    background-image:url(../images/arrow.png); 
+    background-size:contain;
+}
+#wrap main #hero_wrap .ssf_hero .prev {transform:scaleX(-1);}
+#wrap main #hero_wrap .ssf_hero .prev svg,
+#wrap main #hero_wrap .ssf_hero .next svg {display:none;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper {}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide {
+    background-size: cover; background-position: center;
+}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a {
+    display:flex; height:100%; background:rgba(0,0,0,0.3);
+    justify-content:center; flex-flow:column nowrap; text-align:center;
+}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a * {color:#fff;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a p {font-weight:600;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1 {font-size:2rem; font-weight:500; margin:15px 0; line-height:1.2;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1+p {font-weight:300; line-height:1.3;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide1 {background-image:url(https://image.kmib.co.kr/online_image/2016/0901/201609010900_61140010899696_2.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide2 {background-image:url(https://www.apparelnews.co.kr/upfiles/manage/202201/f813c32e5316178150f2e44e917658cb.png);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide3 {background-image:url(https://www.ktnews.com/news/photo/201809/108255_60125_1106.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide4 {background-image:url(https://tnnews.co.kr/wp-content/uploads/2019/03/%EC%82%AC%EC%A7%84-1.-%EB%B9%88%ED%8F%B4%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EC%98%B9%EC%84%B1%EC%9A%B0-%EC%A0%84%EC%86%8C%EB%AF%B8-%EB%AA%A8%EB%8D%B8-%EC%84%A0%EC%A0%95.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide5 {background-image:url(https://image.msscdn.net/mfile_s01/cms-files/66a06e3cd6ef73.36428318.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide6 {background-image:url(https://image.msscdn.net/mfile_s01/cms-files/66a066baa1c392.17576568.jpg?v=20240730101450);}
+/* =========================================== */
+#wrap main #brand_wrap {padding:50px 0;}
+#wrap main #brand_wrap > h1 {font-size:1.2rem; font-weight:600; margin:0 0 30px; text-align:center;}
+#wrap main #brand_wrap .contents_wrap {display:flex; width:1200px; gap:20px;  margin:0 auto;}
+#wrap main #brand_wrap .contents_wrap > * {width:50%;}
+#wrap main #brand_wrap .contents_wrap .bnr {
+    background-image: url(https://www.10wallpaper.com/wallpaper/1920x1200/1212/Nike_logo_-_the_global_brand_advertising_wallpaper_16_1920x1200.jpg);
+    background-size:cover; background-position:center; height:300px;
+}
+#wrap main #brand_wrap .contents_wrap .bnr a {
+    display: flex; align-items: center; justify-content: center;
+    flex-flow:column nowrap; height:100%; background:rgba(0,0,0,0.2);
+}
+#wrap main #brand_wrap .contents_wrap .bnr a * {color:#fff;}
+#wrap main #brand_wrap .contents_wrap .bnr a p {}
+#wrap main #brand_wrap .contents_wrap .bnr a h1 {margin:10px 0;}
+#wrap main #brand_wrap .contents_wrap .slide_g {display:flex; align-items: center; position:relative;}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper {width:95%;}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper {}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide {}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide .photo_like {margin-bottom:10px; position:relative;}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide .photo_like a {}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide .photo_like a img {width:100%;}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide .photo_like .like {position: absolute; bottom:10px; right:10px;}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide .photo_like .like img {width:100%;}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide > a {}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide > a p {}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide > a h1 {margin:5px 0;}
+#wrap main #brand_wrap .contents_wrap .slide_g .nike_swiper .swiper-wrapper .swiper-slide > a .price {font-weight:600;}
+#wrap main #brand_wrap .contents_wrap .slide_g .prev,
+#wrap main #brand_wrap .contents_wrap .slide_g .next {transform: scale(0.6);}
+#wrap main #brand_wrap .contents_wrap .slide_g .prev {left:-20px;}
+#wrap main #brand_wrap .contents_wrap .slide_g .next {right:-20px;}
+#wrap main #brand_wrap .contents_wrap .slide_g .prev svg,
+#wrap main #brand_wrap .contents_wrap .slide_g .next svg {color: #d5d5d5;}
+/* ========================================================================== */
+#wrap main #honey_wrap {}
+#wrap main #honey_wrap .title {text-align: center;}
+#wrap main #honey_wrap .title > h1 {font-size:1.8rem; font-weight:500; margin-bottom:10px;}
+#wrap main #honey_wrap .title p {}
+#wrap main #honey_wrap .option_g {}
+#wrap main #honey_wrap .option_g .option {}
+#wrap main #honey_wrap .option_g .option li {}
+#wrap main #honey_wrap .option_g .order {}
+#wrap main #honey_wrap .option_g .order p {}
+#wrap main #honey_wrap .option_g .order img {width:100%;}
+#wrap main #honey_wrap .gift_product {}
+#wrap main #honey_wrap .gift_product .swiper-wrapper {}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .swiper-slide {}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .swiper-slide a {}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .swiper-slide a img {width:100%;}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .swiper-slide > a > h1 {margin:5px 0;}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .swiper-slide span {color:#828282; margin:5px 0;}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .swiper-slide .price {margin-bottom:10px;}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .prev {}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .next {}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .prev svg {}
+#wrap main #honey_wrap .gift_product .swiper-wrapper .next svg {}
