@@ -1,0 +1,33 @@
+main {
+    max-width:1200px; margin:50px auto 0; min-width:1024px;
+    background:#f5f5f5; padding:50px; position:relative;
+}
+main h1 {margin:0 0 15px; font-weight:600;}
+main .filter {position:absolute; right:50px; top:50px;}
+main .filter #filter_view {font-size:0.75rem; background:#fff; padding:5px 20px;}
+main .filter #filter_view span {font-size:0.5rem;}
+main .filter .filter_list {
+    display:flex; flex-flow:column nowrap;
+    background:#fff; box-shadow:0 0 10px rgba(0,0,0,0.15);
+    border-bottom-left-radius:10px; padding:10px;
+    border-bottom-right-radius:10px;
+}
+main .filter .filter_list .list {
+    line-height:2; font-size:0.75rem; padding:0 5px;
+}
+main .filter .filter_list .list:hover {background: #f2f2f2;}
+main .filter .filter_list .list1 {}
+main .filter .filter_list .list2 {}
+main .filter .filter_list .list3 {}
+main .contents {display:flex; gap:20px;}
+main .contents li {
+    flex:1; text-align:center; height:350px; background:#fff;
+    background-size:cover; background-position:center;
+}
+main .contents li:nth-child(1) {background-image:url(https://img.hankyung.com/photo/202403/AA.36104679.1.jpg);}
+main .contents li:nth-child(2) {background-image:url(https://i.namu.wiki/i/dCL-OS32JA72jv0mVO82QChaB0wuPYfaKiEnTZwjaHTI8Tv_uiqINss3Jb0D-Ax2Jq3MPCPF_6dBY1LOkCeq3w.webp);}
+main .contents li:nth-child(3) {background-image:url(https://cdn.sisajournal.com/news/photo/202105/216731_124666_4150.jpg);}
+main .contents li:nth-child(4) {background-image:url(https://img.freepik.com/premium-photo/carrot-isolated-white-background_355725-1009.jpg);}
+main .contents li a {
+    display:block; height:100%;
+}
